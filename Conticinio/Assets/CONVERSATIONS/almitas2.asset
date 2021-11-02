@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d759db5e7188c746ab34602e8b5b70d, type: 3}
+  m_Name: almitas2
+  m_EditorClassIdentifier: 
+  unlock: 1
+  finish: 0
+  reusable: 0
+  dialogues:
+  - _character: {fileID: 11400000, guid: 5dae41957d1da904d90d23156c26930a, type: 2}
+    dialogue: escribir lo que vos queres
+  - _character: {fileID: 11400000, guid: 5dae41957d1da904d90d23156c26930a, type: 2}
+    dialogue: seguis escribiendo.
+  - _character: {fileID: 11400000, guid: 5dae41957d1da904d90d23156c26930a, type: 2}
+    dialogue: seguis escribiendo.
+  - _character: {fileID: 11400000, guid: 5dae41957d1da904d90d23156c26930a, type: 2}
+    dialogue: seguis escribiendo.
+  - _character: {fileID: 11400000, guid: 5dae41957d1da904d90d23156c26930a, type: 2}
+    dialogue: seguis escribiendo.
+  question: {fileID: 11400000, guid: 066870aea038e8e49864eae014efbdc3, type: 2}
