@@ -4,15 +4,11 @@ using UnityEngine;
 
 public class EndLevel : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public GameObject Victory;
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
+        Victory.SetActive(true);
+        Time.timeScale = 0;
         
     }
 }

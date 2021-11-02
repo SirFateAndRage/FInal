@@ -32,14 +32,7 @@ public class DialogueSpeaker : MonoBehaviour
             Talk();
         }
     }
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.gameObject.layer == 10 )
-        {
-            DialogueManager.instance.ShowUI(false);
-        }
-    }
-
+   
     public void Talk()
     {
         if(indexConversation <= availableConversation.Count - 1)

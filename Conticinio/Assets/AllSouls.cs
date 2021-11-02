@@ -8,7 +8,7 @@ public class AllSouls : MonoBehaviour
     public Player _player;
     public GameObject star;
     float speed = 3f;
-    bool moving;
+    public bool moving;
     public GameObject _fade;
     private void Awake()
     {

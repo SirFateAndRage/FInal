@@ -8,6 +8,7 @@ public class Timer : MonoBehaviour
     public float TimeRemaining = 10;
     public bool timerIsRunning = false;
     public Text timeText;
+    public GameObject Derrota;
 
     public void Start()
     {
@@ -28,6 +29,9 @@ public class Timer : MonoBehaviour
                 // endlevel
                 TimeRemaining = 0;
                 timerIsRunning = false;
+                Derrota.SetActive(true);
+                timeText.gameObject.SetActive(false);
+                Time.timeScale = 0;
 
             }
 

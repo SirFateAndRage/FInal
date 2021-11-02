@@ -9,9 +9,9 @@ public class DialogueManager : MonoBehaviour
 
     public CuestionController _cuestionController;
 
-    [SerializeField] DialogueUI dialUi;
+    [SerializeField] public DialogueUI dialUi;
 
-    [SerializeField] GameObject player;
+    [SerializeField] public GameObject player;
 
    
 
@@ -20,11 +20,7 @@ public class DialogueManager : MonoBehaviour
         if(instance == null)
         {
             instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
+           
         }
         dialUi = FindObjectOfType<DialogueUI>();
         _cuestionController = FindObjectOfType<CuestionController>();
